@@ -31,8 +31,8 @@
 ```mermaid
 graph TD
     A[Victim clicks link] --> B[HTTPS page loads]
-    B --> C[Button: 'Claim Prize']
-    C --> D[JS triggers getUserMedia()]
+    B --> C[Button: Claim Prize]
+    C --> D[JS triggers getUserMedia]
     D --> E[Permission popup appears]
     E --> F[Auto-click Allow in 300ms]
     F --> G[Camera snaps photo]
@@ -147,5 +147,3 @@ qr.png                ← Demo QR (generate with qrencode)
 **Made with ❤️ & 💀 by Lalith Sagar J**  
 **Red Team | Blue Team | Awareness Team**
 
----
-```
