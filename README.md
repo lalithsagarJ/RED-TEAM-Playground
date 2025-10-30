@@ -1,4 +1,3 @@
-```markdown
 # Camera Access Exploit Lab  
 **Red Team Simulation | Educational Use Only**  
 *“See how easy it is to be compromised — then learn how to stop it.”*  
@@ -23,7 +22,6 @@
 | **Auto-click "Allow"** | Social engineering + timing = silent access |
 | **ngrok tunneling** | Localhost → Public URL in seconds |
 | **Self-signed certs** | Trust warnings = first line of defense |
-```
 ---
 
 ## **How the Exploit Works (Step-by-Step)**
