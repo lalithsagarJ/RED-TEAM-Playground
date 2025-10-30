@@ -31,10 +31,10 @@
 ```mermaid
 graph TD
     A[Victim clicks link] --> B[HTTPS page loads]
-    B --> C[Button: "Claim Prize"]
+    B --> C[Button: 'Claim Prize']
     C --> D[JS triggers getUserMedia()]
     D --> E[Permission popup appears]
-    E --> F[Auto-click "Allow" in 300ms]
+    E --> F[Auto-click Allow in 300ms]
     F --> G[Camera snaps photo]
     G --> H[Base64 image POSTed to server]
     H --> I[Photo saved as JPG]
